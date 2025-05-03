@@ -48,6 +48,11 @@ import logging
 # Configure logging
 logging.basicConfig(filename='error_log.txt', level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
 
+'''
+
+This is  a new function
+
+'''
 
 # User-defined exception for file not found
 class FileNotFoundError(Exception):
